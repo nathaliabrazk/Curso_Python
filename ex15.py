@@ -1,0 +1,1 @@
+#Program who ask the number of km traveled of a rented car and the number of days for wich it was rented 
