@@ -1,3 +1,3 @@
 name = input('Whats your name?')
 
-print('Its a pleasue meet you',name)
+print('Its a pleasure meet you',name)

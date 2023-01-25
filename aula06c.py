@@ -1,2 +1,2 @@
-l = str(input('Digite uma letra:'))
+l = str(input('Type a letter:'))
 print (l)

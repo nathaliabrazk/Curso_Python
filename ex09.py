@@ -1,5 +1,5 @@
 #program who read a number and show your multiplication table
-n = int(input('Type a number:'))
+n = int(input('Type a number:') )
 t1 = n*1
 t2 = n*2
 t3 = n*3

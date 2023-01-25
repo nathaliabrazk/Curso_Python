@@ -1,5 +1,5 @@
 #Using modules 
 import math
-n = int(input( 'Type a number'))
+n = int(input( 'Type a number:'))
 s = math.sqrt(n)
-print( ' ')
+print( 'The square root of {} is {}'.format(n,s) )
