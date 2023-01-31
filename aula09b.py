@@ -1,3 +1,3 @@
 #count
-text = "curse of python"
-print = text.count('o')
+text = 'curse of python'
+print (text.count('u'))
