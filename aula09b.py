@@ -1,3 +1,3 @@
-#count
-text = 'curse of python'
-print (text.count('u'))
+#slicing 
+phrase = 'HELLO MSTR'
+print(phrase[3:7])

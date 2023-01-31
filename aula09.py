@@ -1,2 +1,3 @@
-text = "curse of python"
-print(len(text))
+#slicing
+phrase = 'HELLO MSTR'
+print(phrase[6])
