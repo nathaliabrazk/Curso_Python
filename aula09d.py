@@ -1,3 +1,3 @@
-#find
-text = 'curse of python'
-print(text.find('python'))
+#Slicing
+phrase = 'HELLO MSTR'
+print(phrase[:8])
