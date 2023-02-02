@@ -1,5 +1,7 @@
-#Program will read a full name and show: the name in all uppercase letters , the name in all lowercase letters, 
-#number of letters not counting spaces using split
+#Program will read a full name and show: 
+# *The name in all uppercase letters;
+# *The name in all lowercase letters; 
+# *Number of letters not counting spaces (using split).
 name = str(input('Type a full name:')).strip()
 print('The name in uppercase:', name.upper())
 print('The name in lowercase:', name.lower())
