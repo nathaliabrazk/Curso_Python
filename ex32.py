@@ -6,4 +6,4 @@ if year == 0:
 if year % 4 == 0 and year % 100 != 0 or year % 400 == 0:
     print('The year {} is BISSEXTILE!'.format(year))
 else:
-    print('The year {} is NOT bissextile!')
+    print('The year {} is NOT bissextile!'.format(year))
