@@ -4,7 +4,7 @@ major = 0
 lage = 0
 for c in range(1,8):
     age = int(input('Type your age:'))
-    if age < 18:
+    if age < 21:
         minor += 1
     else:
         lage += 1
