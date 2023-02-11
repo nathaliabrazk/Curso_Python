@@ -9,3 +9,8 @@ for c in range(1, n + 1):
       print('\033[31m',end='')
       print('{}'.format(c),end='')
 print('The number {} was divisible {} times'.format(n,total))   
+if total == 2:
+   print('The number is prime!')
+else:
+   print('The number is not prime!')
+
