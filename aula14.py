@@ -6,8 +6,8 @@
 #print('end')
 
 #repeating loop with while:
-c = 1
+c = 5
 while c < 10:
     print(c)
-    c = c + 1
+    c = c + 1 
 print('end')
