@@ -7,6 +7,7 @@ sumage = 0
 average = 0
 oldestman = 0
 nameman = ''
+womenunder = 0
 for c in range (1,5):
     print('-----{}ª Person-----'.format(c))
     name = str(input('Name:')).strip()
@@ -20,7 +21,9 @@ for c in range (1,5):
     if sex in 'M' and age > oldestman:
         oldestman = age
         nameman = name
-        
+    if sex in 'F' and age < 20:
+        womenunder += 1
 
 print('The avarage of age from the group: {}'.format(average))
 print('The oldest man name is: {} with {} years old!'.format(nameman, oldestman))
+print('The quantidy of womens under 20 years old: {}'.format(womenunder))
