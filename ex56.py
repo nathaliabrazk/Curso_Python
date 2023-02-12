@@ -3,11 +3,24 @@
 print('-' * 10) 
 print('   FORM')
 print('-' * 10)
+sumage = 0
+average = 0
+oldestman = 0
+nameman = ''
 for c in range (1,5):
-    name = str(input('{}° name:'.format(c))).strip()
-    age = int(input(('{}° age:'.format(c))))
-    sex = str(input('{}° sex:'.format(c))).strip().upper()
-    
-average = sex / 4
-    
+    print('-----{}ª Person-----'.format(c))
+    name = str(input('Name:')).strip()
+    age = int(input('Age:'))
+    sex = str(input('Sex [M/F]:')).strip().upper()
+    sumage += age 
+    average = sumage / 4
+    if c == 1 and sex in 'M':
+        oldestman = age
+        nameman = name
+    if sex in 'M' and age > oldestman:
+        oldestman = age
+        nameman = name
+        
+
 print('The avarage of age from the group: {}'.format(average))
+print('The oldest man name is: {} with {} years old!'.format(nameman, oldestman))
