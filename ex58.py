@@ -3,11 +3,10 @@
 import random
 from time import sleep
 t = 1
-
 computer = random.randint(1,10)
-print('Im thinking in a number between 1 and 10')
+print('HELLO, Im your computer!\nIm thinking in a number between 1 and 10')
 sleep(1)
-user = int(input('New try guess the number i think:'))
+user = int(input('Try guess the number i thought:'))
 sleep(1.5)
 while user != computer:
     user = int(input('WRONG!\nTry again:'))
