@@ -16,10 +16,10 @@ op = int(input('Type your choice:'))
 while op != 5:
     op = int(input('Type your choice:'))
 #add
-if op == 1:
-    print('You choice add!')
-    add = n1 + n2
-    print('The sum of {} and {} are: {}'.format(n1,n2,add))
+    if op == 1:
+        print('You choice add!')
+        add = n1 + n2
+        print('The sum of {} and {} are: {}'.format(n1,n2,add))
 #multiply
 if op == 2:
     print('You choice multiply!')
