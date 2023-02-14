@@ -15,4 +15,4 @@ while not hit:
             print('More...Try again.')
         elif user > computer:
             print('Less...Try again.')
-print('YOU WIN!\nNumber of try you need to win:{}'.format(t))
+print('YOU WIN!\nNumber of try you needed to win:{}'.format(t))
