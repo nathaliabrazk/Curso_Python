@@ -4,18 +4,26 @@ n = 0
 op = 0
 bigger = 0
 smaller = 0
+add = 0
 average = 0 
 count = 0
+
 op = ''
 while op != 'NO':
     n = int(input('Type a number:'))
-    op = str(input('Continue?\nYes or no:')).strip().upper()
+    add += n
     count += 1
+    op = str(input('Continue?\nYes or no:')).strip().upper()
+  
+    if count == 1:
+        smaller = bigger = n
     if n > bigger:
-        bigger == n
-    elif n < smaller:
-        smaller == n
-average = average + n / count
+        bigger = n
+    if n < smaller:
+        smaller = n
+average = add / count
 print('end')
+print('You type {} numbers'.format(count))
 print('Average of all the numbers: {}'.format(average))
 print('The bigger number: {}\nThe smaller number: {}'.format(bigger,smaller))
+
