@@ -17,10 +17,11 @@ while op != 'NO':
   
     if count == 1:
         smaller = bigger = n
-    if n > bigger:
-        bigger = n
-    if n < smaller:
-        smaller = n
+    else:
+        if n > bigger:
+            bigger = n
+        if n < smaller:
+            smaller = n
 average = add / count
 print('end')
 print('You type {} numbers'.format(count))
