@@ -2,6 +2,6 @@
 n = int(input('Type the number to show your factorial:'))
 c = n
 while c > 0:
-    print('{}'.format(c))
+    print('{}'.format(c), end='')
+    print(' x ' if c > 1 else ' = ', end='')
     c -= 1
-    
