@@ -2,9 +2,10 @@
 #The program will stop when the typed number is negative
 n = 0
 l = 0
-while n != '-':
+while True:
     print('Type a number to see your multiplication table(for stop the program type a negative number):')
-    if n is '-':
+    if n < 0:
         break
-    while l <= 10:
+    for l in range (1,11):
         print(f'{n} x {l} = {n*l}')
+    
