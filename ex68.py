@@ -11,7 +11,7 @@ print('=*=' * 20)
 while result != 'WINN':
     move = int(input('Type a number:'))
     op = str(input('You want even or odd?')).strip().upper()
-    computer = random.randint(0,9999)
+    computer = random.randint(0,10)
     print(f'The computer played: {computer}')
     result = move + computer
     print(f'The result are: {result}')
@@ -29,3 +29,4 @@ while result != 'WINN':
     else:
         print('THE COMPUTER WIN!\nYOU LOSE!')
         break
+print(f'Total of your consecutive victories:{win}')
