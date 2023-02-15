@@ -9,13 +9,13 @@ count = 0
 op = ''
 while op != 'NO':
     n = int(input('Type a number:'))
-    op = str(input('Continue?\nYes or no:')).bigger().strip()
+    op = str(input('Continue?\nYes or no:')).strip().upper()
     count += 1
     if n > bigger:
-        n = bigger
-    elif n - smaller:
-        n = smaller
-average = (average + n) / count
+        bigger == n
+    elif n < smaller:
+        smaller == n
+average = average + n / count
 print('end')
 print('Average of all the numbers: {}'.format(average))
-print('The bigger number: {}\n The smaller number: {}'.format(bigger,smaller))
+print('The bigger number: {}\nThe smaller number: {}'.format(bigger,smaller))
