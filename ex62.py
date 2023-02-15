@@ -4,15 +4,15 @@ first = int(input('Type the first term:'))
 reason = int(input('Type the reason:'))
 term = first
 count = 1
-t = 0
+total = 0
 more = 10
 while more != 0:
-    t = t + more
-    while count <= t:
+    total = total + more
+    while count <= total:
         print('{} -> '.format(term), end='')
         term += reason
         count += 1
     print('pause')
     more = int(input('How many terms do you want see: '))
 print('end')
-print('Finished with {} terms shown'.format(t))
+print('Finished with {} terms shown'.format(total))
