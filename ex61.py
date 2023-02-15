@@ -5,4 +5,4 @@ reason = int(input('Type the reason:'))
 tenth = 0
 while term < reason:
     tenth = term * reason
-print('{} -> {}',end= ''.format(term,tenth))
+print('{} -> {} -> end',end= ''.format(term,tenth))
