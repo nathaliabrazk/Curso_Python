@@ -1,8 +1,10 @@
 #Program who show the multiplication table of some numbers, one at a time, for each value typed for the user 
 #The program will stop when the typed number is negative
 n = 0
-while True:
-    print('Type a number to see your multiplication table:')
+l = 0
+while n != '-':
+    print('Type a number to see your multiplication table(for stop the program type a negative number):')
     if n is '-':
         break
-print('The multiplication table!')
+    while l <= 10:
+        print(f'{n} x {l} = {n*l}')
