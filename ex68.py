@@ -9,15 +9,14 @@ print('=*=' * 20)
 print('                     LETS PLAY PAIR OR ODD')
 print('=*=' * 20) 
 while result != 'WIN':
-    move = int(input('Type a number:'))
+    user = int(input('Type a number:'))
     op = str(input('You want pair or odd?')).strip().upper()
     if op != 'PAIR' or op != 'ODD':
         print('Invalid!\n(type just even or odd)')
     computer = random.randint(0,10)
-    print(f'The computer played: {computer}')
-    result = move + computer
-    print(f'The result are: {result}')
-    print(f'{op}')
+    result = user + computer
+    print(f'You play {user} and the computer played: {computer}, result = {result}',end='')
+    print(f' {op}')
     if op == 'PAIR' and result % 2 == 0:
         result = 'WIN'
         win += 1
