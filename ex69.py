@@ -22,8 +22,8 @@ while True:
             break
     print('end')
     print(f'People over 18 = {over18}')
-    print(f'Mans registered = {man}')
-    print(f'Womens under 20 = {women}')
+    print(f'Man registered = {man}')
+    print(f'Women under 20 = {women}')
 
         
           
