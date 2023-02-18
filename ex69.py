@@ -12,12 +12,12 @@ while True:
     if op == 'YES':
         age = int(input('Type the age:'))
         sex = str(input('Type the sex[F/M]:')).strip().upper()
+        if age < 18:
+            over18 += 1
         if sex == 'F' and age < 20:
             women += 1
         elif sex == 'M':
             man += 1
-        if age < 18:
-            over18 += 1
         if op == 'NO':
             break
     print('end')
