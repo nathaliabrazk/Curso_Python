@@ -7,7 +7,7 @@ women = 0
 op = ''
 age = int(input('Type the age:'))
 sex = str(input('Type the sex[F/M]:')).strip().upper()
-while True:
+while op != 'NO':
     op = str(input('Continue? ')).strip().upper()
     if op == 'YES':
         age = int(input('Type the age:'))
