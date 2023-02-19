@@ -1,32 +1,26 @@
 #Program will game pair or odd with the computer. The game just stop when the user lose, showing the total of 
 #consecutives victories who him conquered in the end of game
-import random 
+from random import randint
 total = 0
 victory = 0
 result = ''
-print('=*=' * 20) 
+op = ''
+type = ''
+print('-' * 60) 
 print('                     LETS PLAY PAIR OR ODD')
-print('=*=' * 20) 
+print('-' * 60)
+n = int(input('Type a number:'))
+computer = randint(0,11)
 while True:
-    user = int(input('Type a number:'))
-    op = str(input('You want pair or odd?')).strip().upper()
-    computer = random.randint(0,10)
-    while result != 'WIN':
-        result = user + computer
-        print(f'You play {user} and the computer played: {computer}, result = {result}',end='')
-        print(f' {op}')
-    if op == 'PAIR' and result % 2 == 0:
+    type = str(input('You want pair or odd?')).strip().upper()
+    op = str(input('Continue? ')).strip().upper()
+    n = int(input('Type a number:'))
+    if n + computer % 2 == 0 and type == 'PAIR':
         result = 'WIN'
-        victory += 1
-        print('USER WIN')
-    else:
-        print('THE COMPUTER WIN!\nYOU LOSE!')
-        break
-    if op == 'ODD' and result % 2 == 1:
+    if n + computer % 2 == 1 and type == 'ODD':
         result = 'WIN'
-        victory += 1
-        print('USER WIN')
-    else:
-        print('THE COMPUTER WIN!\nYOU LOSE!')
-        break
-print(f'Total of your consecutive victories:{victory}')
+        if result != 'WIN':
+            print('USER LOSE')
+print('end of game')
+print(f'Victories: {victory}')
+
