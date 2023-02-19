@@ -7,23 +7,26 @@ women = 0
 op = ''
 age = int(input('Type the age:'))
 sex = str(input('Type the sex[F/M]:')).strip().upper()
-while op != 'NO':
+while True:
     op = str(input('Continue? ')).strip().upper()
     if op == 'YES':
+        while op not in 'YESNO':
+            print('Type just YES or NO')
+            op = str(input('Continue? ')).strip().upper()
         age = int(input('Type the age:'))
         sex = str(input('Type the sex[F/M]:')).strip().upper()
         if age < 18:
             over18 += 1
         if sex == 'F' and age < 20:
             women += 1
-        elif sex == 'M':
+        if sex == 'M':
             man += 1
-        if op == 'NO':
-            break
-    print('end')
-    print(f'People over 18 = {over18}')
-    print(f'Man registered = {man}')
-    print(f'Women under 20 = {women}')
+    elif op == 'NO':
+        break
+print('end')
+print(f'People over 18 = {over18}')
+print(f'Man registered = {man}')
+print(f'Women under 20 = {women}')
 
         
           
