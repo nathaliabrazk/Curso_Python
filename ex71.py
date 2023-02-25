@@ -2,7 +2,7 @@
 #(intenger number) and the program will informate how many ballots of each value will be delivered
 #OBS consider that the cashier has banknotes of R$50, R$20, R$10 and R$1
 print('=' * 30)
-print('ATM')
+print('             ATM')
 print('=' * 30)
 value = int(input('Enter the amount you want to withdraw R$: '))
 total = value
@@ -13,7 +13,8 @@ while True:
         total -= ballot
         totalballot += 1
     else: 
-        print(f'Total of {totalballot} ballots of R${ballot}')
+        if totalballot > 0:
+            print(f'Total of {totalballot} ballots of R${ballot}')
         if ballot == 50:
             ballot = 20
         elif ballot == 20:
