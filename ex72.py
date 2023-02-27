@@ -1,12 +1,11 @@
 #Program will have a tuple tottaly completed with a count by extension, from 0 until 20 
 #The program must read one number (between 0 and 20 ) and show he by extensive
 count = ('Zero', 'One', 'Two', 'Three', 'Four', 'Five', 'Six', 'Seven', 'Eight', 'Nine', 'Ten', 'Eleven', 'Twelve', 'Thirteen', 'Fourteen', 'Fivteen', 'Sixteen', 'Seventeen', 'Eighteen', 'Nineteen', 'Twenty')
+extense = ''
 while True:
     number = int(input('Type a number (between 0 and 20): '))
-    extense = ''
     if number > 20 or number < 0:
-        n = int(input('Invalid!(Type just numbers between 0 and 20)\nTry again:'))
-        print(f'You type the number: {extense}')
+        number = int(input('Invalid!(Type just numbers between 0 and 20)\nTry again:'))
     if number == 0:
         extense = count[0]
     elif number == 1:
@@ -49,4 +48,4 @@ while True:
         extense == count[19]
     elif number == 20:
         extense == count[20]
-    
+    print(f'You type the number: {extense}')
