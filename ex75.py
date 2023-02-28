@@ -1,14 +1,7 @@
 #Program wll read 4 numbers and save them in a tuple. At the end show: a)How many times the number 9 appears. 
 #b)In wich position was entered the number 3. c)What were the even numbers
-tuple = 0
-nine = 0
-three = 0
-for c in range(4):
-    n  = int(input('Type a number: '))
-if n == 9:
-    nine += 1
-print(f'The number 3 appears on position = {c.index(3) + 1}')
-print(f'The number 9 appears = {nine} times')
-for even in n:
-    if n % 2 == 0:
-        print('n', end='')
+values = tuple(int(input('Type a number: '))for c in range(1, 5))
+print(f'O numero nove aparece {values.count(9)} vezes')
+print(f'Valor 3 foi digitado pela primeira vez na {values.index(3)+1}º posição' if 3 in values else 'Não foi digitado valor 3')
+print('Valores pares digitados foram', end=' ')
+print({n for n in values if n % 2 == 0}, end=' ')
