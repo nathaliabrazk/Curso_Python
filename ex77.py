@@ -2,6 +2,9 @@
 #your vowels
 words = ('bed', 'hair', 'nails', 'book', 'clothes', 'eyeglasses', 'mouse',
          'ball', 'bag', 'wather', 'flower', 'makeup', 'gloss', 'clock')
-for v in words:
-    print(f'On word {words} we have:')
- 
+for w in words:
+    print(f'\nOn word {w.upper()} we have',end=' ')
+    for letter in w:
+        if letter.lower() in 'aeiou':
+            print(letter,'and', end=' ')
+
