@@ -13,9 +13,10 @@ while True:
     op = str(input('Continue?')).upper()
     if op in 'NO':
         break
-    if op not in 'YES' or 'NO':
+    if op not in 'YESyesNOno':
         op = str(input('Type just yes or no\nContinue?')).upper() 
 print('=' * 25)
 print(f'{"REGISTER VALUES":^25}')
 print('=' * 25)
+register.sort()
 print(f'{register}')
