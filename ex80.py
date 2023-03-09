@@ -9,7 +9,7 @@ for c in range(0,5):
     else:
         pos = 0
         while pos < len(lis):#len its used to make a count of elements on a list or a tuple
-            if n <= lis(pos):
+            if n <= lis[pos]:
                 lis.insert(pos, n)
                 print(f'Number registered on position: {pos}')
                 break
