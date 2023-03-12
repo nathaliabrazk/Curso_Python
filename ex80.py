@@ -15,4 +15,4 @@ for c in range(0,5):
                 break
             pos += 1
 print('-*' * 25)
-print(f'The values typed: {lis}')
+print(f'The values typed IN ORDER: {lis}')
