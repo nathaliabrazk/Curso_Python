@@ -4,25 +4,23 @@
 n = list()
 op = ''
 quant = 0
-five = False
-p = ''
 while True:
     n.append(int(input('Type a number:')))
     quant += 1
     op = str(input('Continue?')).strip().upper()
     if op == 'NO':
         break
-    if 5 in n:
-        five == True
-        if five == True:
-            p = 'YES'
-    else:
-        p == 'NO'
+    if op not in 'YESNO':
+        op = str(input('Type just yes or no, continue?')).strip().upper()
 n.sort(reverse = True)
+print('=' * 30)
 print('             INFO')
 print('=' * 30)
 print(f'Amount of values entered:{quant}')
-print(f'List\n{n}')
-print(f'Number 5 is on list? {p}')
+print(f'List: {n}')
+if 5 in n:
+    print('The value 5 is on list!')
+else:
+    print('The value 5 is not on list!')
 
     
