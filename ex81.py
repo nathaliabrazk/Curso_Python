@@ -12,17 +12,17 @@ while True:
     op = str(input('Continue?')).strip().upper()
     if op == 'NO':
         break
-    if 5 in list():
+    if 5 in n:
         five == True
         if five == True:
-            p = 'Five was typed and is on list'
-        else:
-            p = 'Five was not typed and is not on list'
-
-print('=' * 30)
+            p = 'YES'
+    else:
+        p == 'NO'
+n.sort(reverse = True)
 print('             INFO')
 print('=' * 30)
 print(f'Amount of values entered:{quant}')
-print(f'{p}')
+print(f'List\n{n}')
+print(f'Number 5 is on list? {p}')
 
     
