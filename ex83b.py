@@ -1,0 +1,19 @@
+#Program will read a expression who use parentheses. The program must to analyze the last expression and 
+#inform if it has open and closed parentheses in the corect order 
+expression = str(input('Type the expression:'))
+stack = []#this list gonna regist the parentheses
+for simb in expression:
+    if simb == '(':#if the symbol are a open parentheses the list gonna regist he
+        stack.append('(')
+    elif simb == ')':#if the second symbol are a open parentheses and the list is not empty this will mean that
+        #the parentheses has your partner to close it
+        if len (stack) > 0:
+            stack.pop()
+        else:
+            stack.append(')')
+            break
+if len (stack) == 0:#if the list is empty this means the expression are correct because all the parentheses are 
+    #closed with your partner
+    print('The expression is it correct!')
+else:
+    print('The expression is it incorrect!')
