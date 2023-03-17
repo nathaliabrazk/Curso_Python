@@ -2,7 +2,8 @@
 #A)How many people were registered. b)A list with the heavier people. c)A list with the more skinny people
 temporary = []
 principal = []
-big = small = 0
+big = 0
+small = 0
 while True:
     temporary.append(str(input('name:')))#gonna be registered in position 0
     temporary.append(float(input('weight:')))#gonna be registered in position 1
