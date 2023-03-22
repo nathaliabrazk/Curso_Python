@@ -8,3 +8,9 @@ print(film.values())#value() gonna show all the 'higher' part
 print(film.keys())#keys() gonna show all the 'bottom' part
 print(film.items())#items() gonna show all items from the dicionary
 #VALUE| KEY | ITEM
+
+#film
+#-------------------------------------
+#|'Star Wars', '1997', 'George Lucas'|
+#-------------------------------------
+# title         year       Director
