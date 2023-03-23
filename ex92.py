@@ -5,25 +5,27 @@
 #years of colaboration)
 #library to most the actual year
 import datetime
-date = 0
 regist = dict()#dicionary
-yob = 0#variable to regist the year of birth to the user
-ActualYear = 2022#variable to regist the actual year
+yob = 0#variable to regist the year of birth to the user#variable to regist the actual year
 RetireYear = 0#variable to calculate with how many years the user gonna retire
-op = ''
 regist['name'] = str(input('Name:'))
 yob = int(input('Year of birth:'))
-age = ActualYear - yob#variable who make the calculation for get the actual year
+age = 2023 - yob#variable who make the calculation for get the actual year
 regist['age'] = age
-regist['work'] = str(input('Work card:'))
-#if regist[2]['work'] != 0:
-    #regist['hiring'] = int(input('Hiring year:'))
-    #regist['salary'] = float(input('Salary:'))
-#elif regist[3]['work'] == 0:
-    #print('You need be in a work!')
-#print('-=' * 30)
-#print(f'{"name"} gonna retire with {RetireYear} years')
-print(regist)
-   
-
-
+regist['workcard'] = int(input('Work card:'))
+if regist['workcard'] != 0:
+    regist['hiringyear'] = int(input('Hiring year:'))
+    regist['salary'] = float(input('Salary:'))
+else:
+    print('You need be in a work!')
+RetireYear = regist['hiringyear'] + 35
+RetireYear - regist['age']
+miss = regist['hiringyear'] - yob#how old the user has when he has hired
+retireAge = miss + 35
+print('-=' * 30)
+print(f'{regist["name"]} can retire on the year = {RetireYear}')
+print(f'With {retireAge} Years old')
+if 2023 - RetireYear > 35:
+    print('You can retire now!')
+else:
+    print('You cant retire!')
