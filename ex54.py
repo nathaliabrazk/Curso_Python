@@ -1,3 +1,4 @@
+#FOR
 #Program who read the age of 7 people and show how many people have not yet reached the age of majority
 minor = 0
 major = 0

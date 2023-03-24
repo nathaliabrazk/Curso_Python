@@ -1,3 +1,4 @@
+#COMPOSITE VARIABLES
 snak = ('Sandwich', 'Juice', 'Pizza', 'Pudding')
 
 for count in range(0, len(snak)):

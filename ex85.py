@@ -1,3 +1,4 @@
+#COMPOUND LIST
 #Program in wich the user can type 7 number values and regist them in a single list and separete the pair numbers 
 #and the odd numbers. At the end show yhe pair and the odd numbers in ascending order
 #     0    1

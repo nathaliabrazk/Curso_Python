@@ -1,3 +1,4 @@
+#METHODS
 #The national swimming confederation needs a program that reads the year of birth of an athlete 
 #and shows your category, according to age: until 9 years old = Little | until 14 years old = Childish
 #until 19 years old = Junior | until 20 years old = Sênior | Over 20 = Master

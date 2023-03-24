@@ -1,3 +1,3 @@
 #Strip
-text = '     we go     !     '
+text = '     we go!     '
 print(text.strip())

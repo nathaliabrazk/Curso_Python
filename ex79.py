@@ -1,3 +1,4 @@
+#LIST
 #Program where the user can type some numerical values and register them. If the number already
 #exist in there, him dont gonna be register. On the end show all the register values on ascending order
 register = list()

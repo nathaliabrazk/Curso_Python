@@ -1,3 +1,4 @@
+#WHILE
 #Program who read numbers. In the end show the average between all the values and show the bigger and 
 #the smaller number. The program need ask if the user want continue or not
 n = 0

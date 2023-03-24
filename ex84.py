@@ -1,3 +1,4 @@
+#COMPOUND LIST
 #Program who read the name and weight from a lot of people keeping the information on a list. At the end show
 #A)How many people were registered. b)A list with the heavier people. c)A list with the more skinny people
 temporary = []

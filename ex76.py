@@ -1,3 +1,4 @@
+#COMPOSITE VARIABLES
 #Program will have a single tuple that stores product names with their respective values. Then show 
 #a list of prices, organizing the data on tabular form
 p = ('Milk', 3.0, 'Bread', 0.50, 'Orange juice', 2.0, 'Strawberry pie', 4.0, 'Grape jelly', 10.0, 
@@ -15,3 +16,4 @@ print(f'{p[12]}.......................... R$ {p[13]}')
 print(f'{p[14]}............................ R$ {p[15]}')
 print(f'{p[16]}........................... R$ {p[17]}')
 print(f'{p[18]}............................ R$ {p[19]}')
+print('-' * 45)

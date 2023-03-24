@@ -1,3 +1,4 @@
+#FOR
 s = 0
 for count in range(0,4):
     n = int(input('Type a number:'))

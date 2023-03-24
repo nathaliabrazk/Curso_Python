@@ -1,3 +1,4 @@
+#METHODS
 #Program will read two notes and calculate your average, showing a massage at the and
 #according to the average reached(average bellow of 5,0-disapproved, average between 5.0 and 6.9- recovery
 #average 7.0 or higher - approved)

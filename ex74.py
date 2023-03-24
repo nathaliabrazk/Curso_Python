@@ -1,3 +1,4 @@
+#COMPOSITE VARIABLES
 #Program will to generate 5 random numbers and and put in a tuple. Then show the list of generate numbers and 
 #indicate the biggets and the smallest value
 from random import randint

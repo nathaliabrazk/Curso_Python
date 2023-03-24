@@ -1,3 +1,4 @@
+#WHILE
 #Improve the ex 61, asking for the user if him want show more terms. The program end when the user say he 
 #wants show 0 terms
 first = int(input('Type the first term:'))

@@ -1,3 +1,4 @@
+#LIST
 #Program will read 5 numerical values and save on a list. On the end then show the bigger and the smallest value 
 #and yours positions on the list
 listvalues = []
@@ -19,7 +20,7 @@ for i, v in enumerate(listvalues):
     if v == small:
         print(f'{i}...', end='')
 
-print(f'The HIGGESTS values: {big} on positions:',end='')
+print(f'\nThe HIGGESTS values: {big} on positions:',end='')
 #repeat loop to find the positions from the higgests values
 for i, v in enumerate(listvalues):
     if v == big:

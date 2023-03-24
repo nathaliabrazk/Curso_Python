@@ -1,3 +1,4 @@
+#BREAK
 #Program will read the age and sex of several people. For each register person, the program will go ask for 
 #the user if he wants continue. At the end show: a) How many people is over 18 years old b) How many mans
 #were registered c)How many womens are under 20 years old 

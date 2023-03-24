@@ -1,3 +1,4 @@
+#METHODS
 #Program who calculate the value to be paid out about a product considering its normal price
 #and payment condition: |in cash money/10% of discount| |in cash on card/5% of discount| 
 #|in until 2x on the card/normal price| |3x or more on the card 20% of fees|

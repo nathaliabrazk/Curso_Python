@@ -1,3 +1,4 @@
+#LIST
 num = [2, 5, 9, 1]
 num [2] = 3
 #num [4] = 7 Its not possible add elements that way, its nescessary use the append method

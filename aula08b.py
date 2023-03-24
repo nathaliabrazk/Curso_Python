@@ -1,4 +1,4 @@
-#using modules
+#Using modules
 import math
 n = int(input( 'Type a number:' ))
 b = math.sqrt(n)

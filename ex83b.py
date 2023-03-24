@@ -1,3 +1,4 @@
+#LIST
 #Program will read a expression who use parentheses. The program must to analyze the last expression and 
 #inform if it has open and closed parentheses in the corect order (with loop)
 expression = ''
@@ -10,7 +11,8 @@ while True:
         elif simb == ')':#if the second symbol are a open parentheses and the list is not empty this will mean that
             #the parentheses has your partner to close it
             if len (stack) > 0:
-                stack.pop()
+                stack.pop()#this method will delete the last position of a list(in this case because the index
+                #was not typed)
             else:
                 stack.append(')')
                 break

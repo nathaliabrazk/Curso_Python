@@ -1,3 +1,4 @@
+#BREAK
 #Program who show the multiplication table of some numbers, one at a time, for each value typed for the user 
 #The program will stop when the typed number is negative
 while True:

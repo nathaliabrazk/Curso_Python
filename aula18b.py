@@ -1,4 +1,4 @@
-#COMPUND LIST
+#COMPOUND LIST
 test = list()
 test.append('Maria')
 test.append(32)

@@ -1,3 +1,4 @@
+#LIST
 #Program will read 5 numerical values and save on a list. On the end then show the bigger and the smallest value 
 #and yours positions on the list
 n = list()

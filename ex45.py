@@ -1,3 +1,4 @@
+#METHODS
 #Program that plays jokenpô with you
 from random import randint
 itens = ('Stone', 'Paper', 'Scissors')

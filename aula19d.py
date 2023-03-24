@@ -11,3 +11,11 @@ film = {'film': 'Matrix', 'year': 1999, 'director': 'Wachowski'}#gonna be the th
 MovieRental.append(film)
 print(MovieRental)
 print(MovieRental[0]['year'])
+
+#MovieRental
+#-----------------------------------------------------------------------------------------------------
+#|'Star Wars', 1997, 'George Lucas'||'Avengers', 2012, 'Josh Whedon'||'Avengers', 2012, 'Josh Whedon'|
+#|---------------------------------||-------------------------------||-------------------------------|
+#|  film       year    director    ||  film       year    director  ||  film       year    director  |
+#-----------------------------------------------------------------------------------------------------
+#               0                                  1                                 2

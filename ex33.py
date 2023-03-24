@@ -1,7 +1,8 @@
+#CONDITIONAL
 #Program will read 3 numbers and show wich is the biggest and wich is the smallest
-n1 = int(input('Type a number:'))
-n2 = int(input('Type a number:'))
-n3 = int(input('Type a number:'))
+n1 = int(input('Type a first number:'))
+n2 = int(input('Type a second number:'))
+n3 = int(input('Type a third number:'))
 #big
 if n1 > n2 and n1 > n3:
     print('The biggest number:{}'.format(n1))

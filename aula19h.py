@@ -10,4 +10,5 @@ for c in range(0,3):
 for e in brasil:
     print(e)
     for v in e.values():
-        print(v,end='')
+        print(v,end=' ')
+    print()

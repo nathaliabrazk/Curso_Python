@@ -1,3 +1,4 @@
+#FOR
 #Program who read 6 whole numbers and show the sum just of even numbers. If the typed value is odd 
 #disregard the 
 count = 0

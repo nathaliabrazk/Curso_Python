@@ -1,3 +1,4 @@
+#WHILE
 #Program who read many numbers, the program will stop when the user type 999. In the end show how many numbers
 #were typed and how is the sum between them
 n = 0

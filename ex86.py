@@ -1,3 +1,4 @@
+#COMPOUND LIST
 #Program that create a matriz 3x3 with typed values. At the end show on the screen the matriz
 matriz = [[0, 0, 0], [0, 0, 0], [0, 0, 0]]
 for l in range (0, 3):

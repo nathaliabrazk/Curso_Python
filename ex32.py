@@ -1,3 +1,4 @@
+#CONDITIONAL
 #Program will read a any year and show if he is bissextile
 from datetime import date
 year = int(input('Type the year you want to analyze(if you want to analyze the current year type 0):'))

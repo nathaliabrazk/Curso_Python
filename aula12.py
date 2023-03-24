@@ -1,3 +1,4 @@
+#CONDITIONAL
 #nested conditions
 name = str(input('Type your name:'))
 if name == 'Fulano':
@@ -5,4 +6,4 @@ if name == 'Fulano':
 elif name == 'Maria' or name == 'Pedro':
     print('Your name is popular!')
 else:
-    print('Your name is normal!\nHave a good day{}'.format(name))
+    print('Your name is normal!\nHave a good day {}'.format(name))

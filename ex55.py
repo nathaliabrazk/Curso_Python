@@ -1,3 +1,4 @@
+#FOR
 #Program who read the weight of 5 people and show wich was the biggest and the smallest 
 bigger = 0
 smaller = 0

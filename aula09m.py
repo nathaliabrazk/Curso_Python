@@ -1,3 +1,3 @@
 #Upper
-text = 'Curse Of Phyton'
+text = 'curse of phyton'
 print(text.upper())

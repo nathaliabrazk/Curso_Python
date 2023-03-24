@@ -1,3 +1,4 @@
+#FOR
 #Remake the ex 09, showing in the screen the multiplication table of a number who the user choice 
 #using a loop forn 
 count = 0

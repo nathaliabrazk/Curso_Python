@@ -1,3 +1,4 @@
+#FOR
 #Program who read a whole number and say if he is or not a prime number
 n = int(input('Type a number:'))
 total = 0

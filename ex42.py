@@ -1,3 +1,4 @@
+#METHODS
 #Remake the 35 ex about the triangles adding the resource to show what type of triangle go be formed
 #equilateral = all the sides are the same | isoceles = two sides are the same  
 # scalene = all the sides are different
@@ -13,4 +14,4 @@ elif a == c and c != b:
 elif c == b and b != a:
     print('The straights lines {}, {} and {} form a isoceles triangle!'.format(a,b,c))
 elif a != b and b != c and c != a:
-    print('The straights lines {}, {} and {}'.format(a,b,c))
+    print('The straights lines {}, {} and {} form a scalene triangle!'.format(a,b,c))

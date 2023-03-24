@@ -1,3 +1,3 @@
 #Rstrip
-text = '    we go'
-print(text.lstrip())
+text = '   we go  '
+print(text.rstrip())

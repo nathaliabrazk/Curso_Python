@@ -1,3 +1,4 @@
+#LIST
 #Program where the user can type 5 numeric values and regist them on a list, already on right position
 #(dont use sort(). On the end show the orderly list 
 lis = []

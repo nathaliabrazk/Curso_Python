@@ -1,3 +1,4 @@
+#FOR
 #Program who calculate the sum of all the odd numbers who are multiples of three
 #and wich are found in the range from 1 to 500
 sum = 0

@@ -1,3 +1,4 @@
+#BREAK
 #Program will game pair or odd with the computer. The game just stop when the user lose, showing the total of 
 #consecutives victories who him conquered in the end of game
 from random import randint

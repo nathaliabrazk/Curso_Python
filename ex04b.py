@@ -1,4 +1,4 @@
-#program that reads data from the keyboard and returns its primitive type and all possible information about it and show what the user typed at the end using format()
+#Program that reads data from the keyboard and returns its primitive type and all possible information about it and show what the user typed at the end using format()
 a = input( 'Type something:' )
 print( 'The primitive type:',type(a) )
 print( 'Its a number?', a.isnumeric() )

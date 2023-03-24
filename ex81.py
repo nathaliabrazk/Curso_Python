@@ -1,3 +1,4 @@
+#LIST
 #Program will read several numbers and put on a list, before this show: 
 #A) how many numbers were typed B) The list of values order in decreasing order
 #C) if the value 5 was typed and if him is on list or not 

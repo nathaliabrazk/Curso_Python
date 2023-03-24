@@ -1,3 +1,4 @@
+#WHILE
 #Program who read the sex of a person, but just acept the values 'M' or 'F'. In case of error ask for 
 #typing again until you have the correct reply
 sex = str(input('Type the sex (M or F): ')).upper().strip()[0]

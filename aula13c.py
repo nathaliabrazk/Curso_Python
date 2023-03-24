@@ -1,3 +1,4 @@
+#FOR
 start = int(input('Start:'))
 middle = int(input('Middle:'))
 steps = int(input('Steps:'))

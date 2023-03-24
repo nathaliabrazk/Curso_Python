@@ -3,8 +3,6 @@
 from time import sleep
 n1 = int(input('Type a first number:'))
 n2 = int(input('Type a second number:'))
-if n1 != int or n2 != int:
-    print('Type just whole numbers!')
 print('Comparing...')
 sleep(2)
 if n1 > n2:

@@ -1,6 +1,6 @@
-#Composite variables
+#COMPOSITE VARIABLES
 #Tuple
-snak = ('Sandwich', 'Juice', 'Pizza', 'pudding')
+snak = ('Sandwich', 'Juice', 'Pizza', 'Pudding')
 #Tuples are immutable
 for food in snak:
     print(f'Im gonna eat {food}')

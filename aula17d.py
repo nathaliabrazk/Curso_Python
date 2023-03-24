@@ -1,3 +1,4 @@
+#LIST
 values = list()
 for count in range (0,5):
     values.append(int(input('Type the value:')))

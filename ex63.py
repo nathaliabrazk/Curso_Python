@@ -1,3 +1,4 @@
+#WHILE
 #Program who read a whole number and show on the screen the first elements of a sequence of Fibonacci
 n = int(input('Type how many terms do you want see:'))
 t1 = 0

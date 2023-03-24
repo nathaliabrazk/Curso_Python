@@ -1,3 +1,4 @@
+#COMPOSITE VARIABLES
 #Program will create a tuple with the top 20 of the brazilian championship table. Then show: a) Only the top five
 #b) Last placed in the table c) A list with times in alphabetical order d) In wich position in the table is the
 #Chapecoense 
