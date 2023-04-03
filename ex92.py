@@ -4,28 +4,15 @@
 #and add, in addition the age, with how many years the people gonna retire(the people gonna retire before 35
 #years of colaboration)
 #library to most the actual year
-import datetime
-regist = dict()#dicionary
-yob = 0#variable to regist the year of birth to the user#variable to regist the actual year
-RetireYear = 0#variable to calculate with how many years the user gonna retire
-regist['name'] = str(input('Name:'))
-yob = int(input('Year of birth:'))
-age = 2023 - yob#variable who make the calculation for get the actual year
-regist['age'] = age
-regist['workcard'] = int(input('Work card(if you dont have type 0:'))
-if regist['workcard'] != 0:
-    regist['hiringyear'] = int(input('Hiring year:'))
-    regist['salary'] = float(input('Salary:'))
-else:
-    print('You need be in a work!')
-RetireYear = regist['hiringyear'] + 35
-RetireYear - regist['age']
-miss = regist['hiringyear'] - yob#how old the user has when he has hired
-retireAge = miss + 35
+from datetime import datetime
+data = dict()#dicionary
+data['name'] = str(input('Name: '))
+birth = int(input(f'Year of birth from {data["name"]}: '))
+data['age'] = datetime.now().year - birth
+data['workcard'] = int(input('Work card (if you dont have type 0): '))
+if data['workcard'] != 0:
+    data['hiringYear'] = int(input(f'Hiring year of contratation of {data["name"]}: '))
+    data['retire'] = data['age'] + ((data['hiringYear'] + 35) - datetime.now().year)
 print('-=' * 30)
-print(f'{regist["name"]} can retire on the year = {RetireYear}')
-print(f'With {retireAge} Years old')
-if 2023 - RetireYear > 35:
-    print('You can retire now!')
-else:
-    print('You cant retire!')
+for k, v in data.items():
+    print(f'{k} has the value {v}')  
