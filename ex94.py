@@ -33,8 +33,17 @@ while True:#This while True it suits to regist all datas from dictionaryes on a 
     if op in 'N':
         break
 print('-=' * 30)
-print(f'Quanty of registered people: {len(allPeople)}')
+print(f'A)Quanty of registered people: {len(allPeople)}')
 average = sum / (len(allPeople))#variable to make the average of the ages
-print(f'Average of the age from the people: {average:5.2f}')
-print(f'The list of all the womens: {womenList}')
-
+print(f'B) Average of the age from the people: {average:5.2f}')
+print(f'C) The list of all the womens: {womenList}',end='')
+print()
+print('D) List of all the people with above age:')
+for p in allPeople:
+    if p['sex'] in 'F':
+        print('{p["name"]}',end='')
+        print('    ')
+        for k, v in p.items():
+            print(f'{k} = {v}; ',end='')
+        print()
+print('>>>>>>>END<<<<<<<')
