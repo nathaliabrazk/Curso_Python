@@ -10,11 +10,11 @@ for c in range(0, tot):
     match.append(int(input(f'How much gols on match {c+1}: ')))
 player['gols'] = match[:]
 player['total'] = sum(match)
-print('-=' * 30)
-print(player)
-print('-=' * 30)
-for k,v in player.items():
-    print(f'The camp {k} has the value {v}')
+#print('-=' * 30)
+#print(player)
+#print('-=' * 30)
+#for k,v in player.items():
+    #print(f'The camp {k} has the value {v}')
 print('-=' * 30)
 print(f'The player {player["nome"]} played {len(player["gols"])} matches')
 for i,v in enumerate(player['gols']):
