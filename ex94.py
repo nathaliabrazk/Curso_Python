@@ -28,6 +28,7 @@ while True:#This while True it suits to regist all datas from dictionaryes on a 
         print('Type just [Y or N]')
     if op in 'N':
         break
+#RESULT
 print('-=' * 30)
 print(f'A)Quanty of registered people: {len(allPeople)}')
 average = sum / (len(allPeople))#variable to make the average of the ages
@@ -35,7 +36,7 @@ print(f'B) Average of the age from the people: {average:5.2f}')
 print('C) List with all the womens: ', end=' ')
 for p in allPeople:
     if p['sex'] in 'F':
-        print(f'{p["name"]}, ', end='')
+        print(f'{p["name"]}| ', end='')
 print()
 print('D) List of all the people with above age: ')
 for p in allPeople:
