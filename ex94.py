@@ -9,8 +9,6 @@
 allPeople = list()
 people = dict()
 sum = average = 0
-womenList = list()
-aboveAgeList = list()
 while True:#This while True it suits to regist all datas from dictionaryes on a list
     people.clear()#to reset the list and add a new user
     people['name'] = str(input('Name: '))
@@ -19,8 +17,6 @@ while True:#This while True it suits to regist all datas from dictionaryes on a 
         people['sex'] = str(input('Sex [F/M]: ')).strip().upper()[0]#[0] to get just the first letter
         if people['sex'] in 'MF':
             break
-        if people['sex'] in 'F':
-            womenList.append(people.copy())
         print('ERROR - Type just [F or M]')
     people['age'] = int(input('Age: '))
     sum += people['age']#variable to sum the average from the user to make the average
@@ -36,13 +32,15 @@ print('-=' * 30)
 print(f'A)Quanty of registered people: {len(allPeople)}')
 average = sum / (len(allPeople))#variable to make the average of the ages
 print(f'B) Average of the age from the people: {average:5.2f}')
-print(f'C) The list of all the womens: {womenList}',end='')
-print()
-print('D) List of all the people with above age:')
+print('C) List with all the womens: ', end=' ')
 for p in allPeople:
     if p['sex'] in 'F':
-        print('{p["name"]}',end='')
-        print('    ')
+        print(f'{p["name"]}, ', end='')
+print()
+print('D) List of all the people with above age: ')
+for p in allPeople:
+    if p['age'] >= average:
+        print('        ')
         for k, v in p.items():
             print(f'{k} = {v}; ',end='')
         print()
