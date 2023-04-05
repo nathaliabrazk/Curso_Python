@@ -42,6 +42,7 @@ print('-' * 40)
 while True:
     search = int(input('Type the player code to show datas (type 999 to stop the program): '))
     if search == 999:
+        print('END')
         break
     if search >= len(details):
         print(f'ERROR |Dont exist player with code {search}|')
@@ -49,3 +50,4 @@ while True:
         print(f'-- DETAILS OF THE PLAYER {details[search]["name"]}:')
         for i, g in enumerate(details[search]['gols']):
             print(f'--> On match {i} did {g + 1} gols')
+    print('-' * 40)
