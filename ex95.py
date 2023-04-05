@@ -11,6 +11,9 @@ while True:
         match.append(int(input(f'How much gols on match {c+1}: ')))
     player['gols'] = match[:]
     player['total'] = sum(match)
+    op = str(input('Continue? ')).strip().upper()
+    if op != 'NO':
+        break
     print('-=' * 30)
     print(f'The player {player["nome"]} played {len(player["gols"])} matches')
     for i,v in enumerate(player['gols']):
