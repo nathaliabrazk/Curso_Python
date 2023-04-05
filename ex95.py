@@ -22,10 +22,17 @@ while True:
         print('Type just YES or NO!').strip().upper()
     if op == 'NO':
         break
+#start of header
+print('-=' * 30)
+print('cod ', end='')
+for i in player.keys():
+    print(f'{i:<15}', end='') 
+print()
+#end of header
 
 print('-' * 40)
 for k, v in enumerate(details):
-    print(f'{k:>4}', end='')
+    print(f'{k:>4} ', end='')
     for d in v.values():
         print(f'{str(d):<15}', end='')
     print()
