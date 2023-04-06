@@ -7,7 +7,7 @@ def area(width, lenght):
     a = width * lenght
     print(f'The area from a terrain {width} x {lenght} is: {a}m².')
 
-#Program
+#Main
 print('TERRAIN CONTROL')
 print('_' * 20)
 w = float(input('Widht: '))
