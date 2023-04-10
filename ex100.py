@@ -4,17 +4,25 @@
 #values sorted for the last function
 from random import randint
 from time import sleep
+
 #first function
-def prizeDraw(list):
-    print('Raffling numbers')
+def raffle(lista):
+    print('Raffling 5 numbers from the list: ', end='')
     for count in range(0, 5):
         n = randint(1, 10)
-        list.append(randint(1, 10))
+        lista.append(n)
         print(f'{n} ', end='', flush=True)
         sleep(0.3)
     print('Finish')
+
 #second function 
-def sumPair():
-    numbers = list()
-    prizeDraw(numbers)
-    print(numbers)
+def sumPair(lista):
+    sum = 0
+    for value in lista:
+        if value % 2 == 0:
+            sum += value
+    print(f'Adding pair numbers from {lista}, we have {sum}')
+
+numbers = list()
+raffle(numbers)
+sumPair(numbers)
