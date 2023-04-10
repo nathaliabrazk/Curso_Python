@@ -8,9 +8,9 @@ def vote(year):
     age = actual - year
     if age < 16:
         return f'With {age} years: DENIED'
-    elif age < 18 and age >= 16:
+    elif  16 <= age < 18 or age > 65:
         return f'With {age} years: OPTIONAL'
-    elif age > 18:
+    else:
         return f'With {age} years: MANDATORY'
 birth = int(input('Type the year of your birth: '))
 print(vote(birth))
