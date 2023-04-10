@@ -5,6 +5,11 @@
 
 #Function
 def factorial(n, show=False):
+    """
+    Calculate the factorial of a number
+    :n: The number
+    :show: logical variable who show on the screen the factorial if be True
+    """
     f = 1
     for c in range(n, 0, -1):
         if show:
@@ -18,3 +23,4 @@ def factorial(n, show=False):
 
 #main
 print(factorial(5, show=True))
+help(factorial)
