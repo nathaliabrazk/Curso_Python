@@ -1,4 +1,5 @@
 #COMPOSITE VARIABLES
+#Tuple
 a = (5, 2, 1)
 b = (0, 5, 3)
 c = b + a

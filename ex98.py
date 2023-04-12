@@ -13,7 +13,7 @@ def counter(s, e, st):
     if st < 0:
         st *= - 1
     if st == 0:
-        print('This count dont be made, im gonna made from 1 in 1')
+        print('This count cant be made, im gonna made from 1 in 1')
         st = 1
     print('-=' * 20)
     print(f'Count from {s} until {e} from {st} in {st}')

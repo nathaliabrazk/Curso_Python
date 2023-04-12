@@ -15,4 +15,4 @@ if data['workcard'] != 0:
     data['retire'] = data['age'] + ((data['hiringYear'] + 35) - datetime.now().year)
 print('-=' * 30)
 for k, v in data.items():
-    print(f'{k} has the value {v}')  
+    print(f'  - {k} has the value {v}')  

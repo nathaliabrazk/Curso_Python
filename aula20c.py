@@ -6,6 +6,6 @@ def fold(lst):
         pos += 1
 
 
-numbers = [2, 5, 3, 11, 9]
+numbers = [2, 5, 3, 11, 9, 7]
 fold(numbers)
 print(numbers)

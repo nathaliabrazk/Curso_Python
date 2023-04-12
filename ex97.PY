@@ -7,5 +7,8 @@ def type(message):
     print(f'  {message}')
     print('~' * size)
 
+    
 text = str(input('Type the text: '))
+#Calling the function 
 type(text)
+
