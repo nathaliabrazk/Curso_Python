@@ -1,5 +1,5 @@
 #WHILE
-#Improve the ex 28 where the computer go "think" in a number between 1 and 10. But now the user go try guess
+#Improve the ex 28 where the computer gonna "think" in a number between 1 and 10. But now the user go try guess
 #until hit, showing in the end how many guesses were needed to get yhe right answer
 import random
 from time import sleep

@@ -1,6 +1,6 @@
 #WHILE
-#Improve the ex 28 where the computer go "think" in a number between 1 and 10. But now the user go try guess
-#until hit, showing in the end how many guesses were needed to get yhe right answer
+#Improve the ex 28 where the computer gonna "think" in a number between 1 and 10. But now the user will try to guess
+#until hit, showing in the end how many guesses were needed to get the right answer
 from random import randint
 from time import sleep
 computer = randint(0,10)
@@ -20,4 +20,4 @@ while not hit:
             sleep(0.5)
             print('Less...Try again.')
 sleep(0.8)
-print('YOU WIN!\nNumber of try you needed to win:{}'.format(t))
+print('YOU WIN!\nNumber of tries you needed to win:{}'.format(t))
